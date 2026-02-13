@@ -41,7 +41,7 @@ header .navegacao{
 .menu{
   padding: 1.5rem 1rem;
   border-radius: 32px;
-  border: 1px solid var(--vidro);
+  border: 2px solid var(--claro);
   background-color: rgba(199, 199, 199, 0.22);
   backdrop-filter: blur(50px);
   width: 100%;
@@ -287,6 +287,33 @@ h1 {
 
 }
 
+.call{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.call span{
+  font-size: 1.6rem;
+  font-family: "Space Mono", monospace;
+}
+
+.div-icons{
+  display: flex;
+  width: 100%;
+  max-width: 100px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.div-icons span{
+  font-size: 1rem;
+  font-family: "Space Mono", monospace;
+}
+
 @keyframes flutuar {
   0%, 100%{
     transform: translateY(0);
@@ -299,21 +326,24 @@ h1 {
 
 .wrapper-icons{
   display: flex;
-  gap: 1rem;
+  gap: 3rem;
   width: 100%;
   justify-content: center;
   align-items: center;
 }
 
 .wrapper-icons a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-top: 1.5rem;
-  padding: 18px;
+  width: 60px;
+  height: 60px;
   border-radius: 100%;
   background: rgba(255,255,255,0.05);
 }
 
 .wrapper-icons svg{
-  margin-top: 5px;
   width: 30px;
   height: 30px;
   color: var(--claro);

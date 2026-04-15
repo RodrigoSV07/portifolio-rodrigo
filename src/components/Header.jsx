@@ -2,6 +2,7 @@ function Header() {
   return (
     <header>
       <nav className="navegacao">
+        <img className="logo" src="/img/logo_rodrigo.svg" alt="logo" />
         <ul className="menu">
           <li><a href="#Inicio" className="menu-link">Inicio</a></li>
           <li><a href="#sobre" className="menu-link">Sobre Mim</a></li>

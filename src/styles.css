@@ -24,35 +24,40 @@ body{
 }
 
 header .navegacao{
+  backdrop-filter: blur(50px);
+  background-color: rgba(199, 199, 199, 0.168);
   position: fixed;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  background: transparent;
   width: 100%;
+  height: 100px;
   top: 0;
   z-index: 100;
-  padding: 1.5rem;
+  padding: 1rem 2rem;
+}
+
+.logo{
+  margin-top: 20px;
+  height: 100px;
+  width: auto;
 }
 
 
 .menu{
-  padding: 1.5rem 1rem;
-  border-radius: 32px;
-  border: 2px solid var(--claro);
-  background-color: rgba(199, 199, 199, 0.22);
-  backdrop-filter: blur(50px);
-  width: 100%;
-  max-width: 500px;
   display: flex;
   list-style: none;
+  height: 100px;
   gap: 2rem;
+  top: 0;
+  align-items: center;
   justify-content: center;
 }
 
 
 .menu-link{
   position: relative;
+  font-size: larger;
   text-decoration: none;
   color: var(--claro);
   font-weight: 500;

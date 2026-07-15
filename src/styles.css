@@ -25,7 +25,7 @@ body{
 
 header .navegacao{
   backdrop-filter: blur(50px);
-  background-color: rgba(199, 199, 199, 0.168);
+  background-color: rgba(173, 171, 171, 0.168);
   position: fixed;
   display: flex;
   justify-content: space-around;
